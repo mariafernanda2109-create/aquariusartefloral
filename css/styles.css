@@ -2677,6 +2677,98 @@ main:focus,
 }
 
 
+/* ---------- Páginas avulsas: 404 e política de privacidade ---- */
+.pagina-simples {
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+.pagina-simples__topo {
+  display: block;
+  width: 9rem;
+  margin-bottom: clamp(var(--esp-12), 8vw, var(--esp-24));
+  color: var(--s-titulo);
+}
+
+.pagina-simples__topo svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.erro {
+  display: grid;
+  align-content: center;
+}
+
+.erro h1 {
+  max-width: 14ch;
+  margin-block: var(--esp-4) var(--esp-6);
+  font-size: var(--texto-h1);
+  line-height: 1.05;
+}
+
+.erro p:not(.rotulo) {
+  max-width: 40ch;
+  font-size: var(--texto-md);
+  color: var(--s-texto-2);
+}
+
+.erro__acoes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--esp-4) var(--esp-8);
+  margin-top: var(--esp-8);
+}
+
+.texto-legal {
+  max-width: var(--medida);
+}
+
+.texto-legal h1 {
+  margin-block: var(--esp-4) var(--esp-2);
+  font-size: var(--texto-h2);
+  line-height: 1.1;
+}
+
+.texto-legal h2 {
+  margin-top: var(--esp-12);
+  padding-top: var(--esp-6);
+  border-top: 1px solid var(--s-linha, var(--borda));
+  font-size: var(--texto-h3);
+}
+
+.texto-legal p,
+.texto-legal ul {
+  margin-top: var(--esp-4);
+  color: var(--s-texto);
+}
+
+.texto-legal ul {
+  padding-left: var(--esp-6);
+  list-style: disc;
+}
+
+.texto-legal li + li {
+  margin-top: var(--esp-2);
+}
+
+.texto-legal a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.0625rem;
+  text-underline-offset: 0.2em;
+}
+
+.texto-legal__data {
+  color: var(--s-texto-2);
+  font-size: var(--texto-sm);
+}
+
+.texto-legal__voltar {
+  margin-top: var(--esp-16);
+}
+
 /* ---------- TESTE DE FONTES ------------------------------------
    Ativo pela classe .fontes-teste no <html>. Para voltar a Jost +
    Playfair Display, basta tirar a classe: os tokens originais do
