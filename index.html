@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="pt-BR" class="no-js fontes-teste">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ateliê Aquarius Arte Floral | Buquês e arranjos autorais em Campo Grande-MS</title>
+  <meta name="description" content="Ateliê de arte floral em Campo Grande-MS. Buquês, ramalhetes e arranjos autorais com flores da estação para casamentos, eventos e presentes. Peça seu orçamento pelo WhatsApp.">
+  <meta name="theme-color" content="#F6F1EA">
+  <link rel="canonical" href="https://[DOMINIO]/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Ateliê Aquarius Arte Floral">
+  <meta property="og:title" content="Ateliê Aquarius Arte Floral | Campo Grande-MS">
+  <meta property="og:description" content="Buquês, ramalhetes e arranjos autorais com flores da estação para casamentos, eventos e presentes.">
+  <meta property="og:url" content="https://[DOMINIO]/">
+  <meta property="og:image" content="https://[DOMINIO]/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Três buquês do Ateliê Aquarius: hortênsias azuis, rosas champanhe e lírios com fotos.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script>
+    (function () {
+      var h = document.documentElement;
+      h.classList.remove("no-js");
+      h.classList.add("js");
+      var reduz = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (reduz) return;
+      h.classList.add("anim");
+      var visto = false;
+      try { visto = sessionStorage.getItem("aquarius-preloader") === "1"; } catch (e) {}
+      if (!visto) h.classList.add("com-preloader");
+      /* rede de segurança: se o JS de animação não confirmar, tudo aparece */
+      window.__seguranca = setTimeout(function () {
+        h.classList.remove("anim", "com-preloader");
+      }, 4000);
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap">
+  <!-- teste de fontes: Fraunces + Raleway (as originais continuam acima) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Raleway:wght@400;500&display=swap">
+  <link rel="preload" as="image" href="assets/video/hero-flores-poster-1280.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="css/styles.css?v=20260924w">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Florist",
+    "name": "Ateliê Aquarius Arte Floral",
+    "description": "Ateliê de arte floral com buquês, ramalhetes e arranjos autorais para casamentos, eventos e presentes.",
+    "url": "https://[DOMINIO]/",
+    "image": "https://[DOMINIO]/assets/og-image.jpg",
+    "logo": "https://[DOMINIO]/assets/logo-aquarius.svg",
+    "telephone": "+55-67-99677-6309",
+    "founder": { "@type": "Person", "name": "Mariana Santos" },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "[ENDEREÇO]",
+      "addressLocality": "Campo Grande",
+      "addressRegion": "MS",
+      "postalCode": "[CEP]",
+      "addressCountry": "BR"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Campo Grande" },
+      "[REGIÃO ATENDIDA]"
+    ],
+    "sameAs": ["https://www.instagram.com/aquariusartefloral/"]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="js/main.js?v=20260924k" defer></script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="preloader" aria-hidden="true">
+    <svg class="preloader__logo" viewBox="0 0 440 202" focusable="false"><use href="assets/logo-aquarius.svg?v=20260923c#logo" width="440" height="202"/></svg>
+  </div>
+
+  <header class="cabecalho" id="topo">
+    <div class="container cabecalho__barra">
+      <a class="cabecalho__logo" href="#inicio" aria-label="Ateliê Aquarius Arte Floral, voltar ao início">
+        <svg viewBox="0 0 430 125" aria-hidden="true" focusable="false"><use href="assets/logo-aquarius.svg?v=20260923c#logo-compacto" width="430" height="125"/></svg>
+      </a>
+
+      <nav class="nav" aria-label="Principal">
+        <ul>
+          <li><a href="#servicos"><span class="rola"><span>Serviços</span><span aria-hidden="true">Serviços</span></span></a></li>
+          <li><a href="#portfolio"><span class="rola"><span>Portfólio</span><span aria-hidden="true">Portfólio</span></span></a></li>
+          <li><a href="#sobre"><span class="rola"><span>Sobre</span><span aria-hidden="true">Sobre</span></span></a></li>
+          <li><a href="#perguntas"><span class="rola"><span>Perguntas</span><span aria-hidden="true">Perguntas</span></span></a></li>
+        </ul>
+      </nav>
+
+      <div class="cabecalho__acoes">
+        <a class="btn btn--primario cabecalho__cta" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Ateli%C3%AA%20Aquarius%20e%20gostaria%20de%20um%20or%C3%A7amento." data-whatsapp target="_blank" rel="noopener">
+          <span class="rola"><span>Solicitar orçamento</span><span aria-hidden="true">Solicitar orçamento</span></span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg><span class="sr-only"> (abre o WhatsApp)</span>
+        </a>
+        <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu-mobile">
+          <span class="menu-botao__rotulo">Menu</span>
+          <span class="menu-botao__icone" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu-mobile" id="menu-mobile" role="dialog" aria-modal="true" aria-label="Menu">
+    <nav aria-label="Menu principal">
+      <ul class="menu-mobile__lista">
+        <li class="menu-mobile__item" style="--i: 0"><a href="#servicos"><small aria-hidden="true">01</small>Serviços</a></li>
+        <li class="menu-mobile__item" style="--i: 1"><a href="#portfolio"><small aria-hidden="true">02</small>Portfólio</a></li>
+        <li class="menu-mobile__item" style="--i: 2"><a href="#sobre"><small aria-hidden="true">03</small>Sobre</a></li>
+        <li class="menu-mobile__item" style="--i: 3"><a href="#perguntas"><small aria-hidden="true">04</small>Perguntas</a></li>
+      </ul>
+    </nav>
+    <div class="menu-mobile__rodape menu-mobile__item" style="--i: 4">
+      <a class="btn btn--primario" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Ateli%C3%AA%20Aquarius%20e%20gostaria%20de%20um%20or%C3%A7amento." data-whatsapp target="_blank" rel="noopener">
+        Solicitar orçamento <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg><span class="sr-only"> (abre o WhatsApp)</span>
+      </a>
+      <p>WhatsApp <a href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Ateli%C3%AA%20Aquarius%20e%20gostaria%20de%20um%20or%C3%A7amento." data-whatsapp target="_blank" rel="noopener">(67) 99677-6309</a></p>
+    </div>
+  </div>
+
+  <main id="conteudo" tabindex="-1">
+
+    <!-- 2. Hero: vídeo em tela cheia -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero__fundo" aria-hidden="true">
+        <picture class="hero__capa">
+          <source type="image/avif" srcset="assets/video/hero-flores-poster-800.avif 800w, assets/video/hero-flores-poster-1280.avif 1280w, assets/video/hero-flores-poster-1920.avif 1920w" sizes="100vw">
+          <source type="image/webp" srcset="assets/video/hero-flores-poster-800.webp 800w, assets/video/hero-flores-poster-1280.webp 1280w, assets/video/hero-flores-poster-1920.webp 1920w" sizes="100vw">
+          <img src="assets/video/hero-flores-poster-1920.jpg" srcset="assets/video/hero-flores-poster-800.jpg 800w, assets/video/hero-flores-poster-1280.jpg 1280w, assets/video/hero-flores-poster-1920.jpg 1920w" sizes="100vw" width="1920" height="1080" alt="" fetchpriority="high" decoding="async">
+        </picture>
+        <video class="hero__video" data-video-hero muted playsinline preload="none" poster="assets/video/hero-flores-poster-1280.jpg" tabindex="-1">
+          <source src="assets/video/hero-flores-720.mp4" type="video/mp4" media="(max-width: 63.99rem)">
+          <source src="assets/video/hero-flores-1080.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="container hero__conteudo">
+        <h1 id="hero-titulo" class="sr-only">Arte floral que <em>floresce</em> da sua história</h1>
+        <svg class="hero__logo" viewBox="4 0 436 202" aria-hidden="true" focusable="false"><use href="assets/logo-aquarius.svg?v=20260923c#logo" width="440" height="202"/></svg>
+        <p class="hero__tagline">Ramalhetes, buquês e arranjos para momentos especiais.</p>
+        <div class="hero__acoes">
+          <a class="hero__link" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Ateli%C3%AA%20Aquarius%20e%20gostaria%20de%20um%20or%C3%A7amento." data-whatsapp target="_blank" rel="noopener"><span class="rola"><span>Pedir meu orçamento</span><span aria-hidden="true">Pedir meu orçamento</span></span><span class="sr-only"> (abre o WhatsApp)</span></a>
+          <a class="hero__link" href="#portfolio"><span class="rola"><span>Ver portfólio</span><span aria-hidden="true">Ver portfólio</span></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Manifesto -->
+    <section class="manifesto tema-verde" aria-labelledby="manifesto-titulo">
+      <div class="manifesto__faixa">
+        <div class="container">
+          <div class="manifesto__grade">
+            <div class="manifesto__foto" data-anim="imagem">
+              <picture><source type="image/avif" srcset="assets/img/rosas-champanhe-kraft-400.avif 400w, assets/img/rosas-champanhe-kraft-800.avif 800w, assets/img/rosas-champanhe-kraft-878.avif 878w" sizes="(min-width: 64rem) 22vw, 100vw"><source type="image/webp" srcset="assets/img/rosas-champanhe-kraft-400.webp 400w, assets/img/rosas-champanhe-kraft-800.webp 800w, assets/img/rosas-champanhe-kraft-878.webp 878w" sizes="(min-width: 64rem) 22vw, 100vw"><img src="assets/img/rosas-champanhe-kraft-878.jpg" srcset="assets/img/rosas-champanhe-kraft-400.jpg 400w, assets/img/rosas-champanhe-kraft-800.jpg 800w, assets/img/rosas-champanhe-kraft-878.jpg 878w" sizes="(min-width: 64rem) 22vw, 100vw" width="878" height="1216" alt="Buquê de rosas champanhe com folhas de rúscus, envolto em papel verde-sálvia e kraft, com cartão do Aquarius e fita de cetim verde." loading="lazy" decoding="async"></picture>
+            </div>
+            <div class="manifesto__texto">
+              <h2 id="manifesto-titulo" data-anim="texto">Arte floral com <em>intenção</em></h2>
+            </div>
+            <div class="manifesto__acao">
+              <a class="btn btn--primario" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Ateli%C3%AA%20Aquarius%20e%20gostaria%20de%20um%20or%C3%A7amento." data-whatsapp target="_blank" rel="noopener" data-anim="fade">
+                <span class="rola"><span>Vamos conversar</span><span aria-hidden="true">Vamos conversar</span></span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg><span class="sr-only"> (abre o WhatsApp)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Serviços -->
+    <section class="secao tema-sage" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="container">
+        <div class="secao__cabeca cabeca-linha cabeca-linha--sem-acao cabeca-linha--simples">
+          <h2 id="servicos-titulo" class="rotulo" data-anim="fade">Serviços</h2>
+        </div>
+
+        <div class="servicos__grade">
+        <ol class="servicos__lista">
+          <li class="servico is-ativo" data-servico="1">
+            <span class="servico__num" aria-hidden="true">01</span>
+            <div class="servico__corpo">
+              <h3 class="servico__titulo">Casamentos</h3>
+              <p data-anim="fade">Flores que acompanham a atmosfera do seu grande dia, da cerimônia à recepção.</p>
+              <a class="link-seta" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Conheci%20o%20Aquarius%20Arte%20Floral%20pelo%20site%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto%20floral%20para%20um%20casamento." data-whatsapp="Olá! Conheci o Aquarius Arte Floral pelo site e gostaria de conversar sobre um projeto floral para um casamento." target="_blank" rel="noopener">Falar sobre meu projeto<span class="sr-only"> – casamentos (abre o WhatsApp)</span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg></a>
+            </div>
+            <div class="servico__foto midia" data-anim="imagem">
+              <picture><source type="image/avif" srcset="assets/img/noiva-hortensias-azuis-400.avif 400w, assets/img/noiva-hortensias-azuis-800.avif 800w, assets/img/noiva-hortensias-azuis-928.avif 928w" sizes="(min-width: 48rem) 36vw, 90vw"><source type="image/webp" srcset="assets/img/noiva-hortensias-azuis-400.webp 400w, assets/img/noiva-hortensias-azuis-800.webp 800w, assets/img/noiva-hortensias-azuis-928.webp 928w" sizes="(min-width: 48rem) 36vw, 90vw"><img src="assets/img/noiva-hortensias-azuis-928.jpg" srcset="assets/img/noiva-hortensias-azuis-400.jpg 400w, assets/img/noiva-hortensias-azuis-800.jpg 800w, assets/img/noiva-hortensias-azuis-928.jpg 928w" sizes="(min-width: 48rem) 36vw, 90vw" width="928" height="1143" alt="Buquê de noiva com hortênsias azuis, rosas cor de pêssego e eucalipto, amarrado com fita lilás." loading="lazy" decoding="async"></picture>
+            </div>
+          </li>
+          <li class="servico" data-servico="2">
+            <span class="servico__num" aria-hidden="true">02</span>
+            <div class="servico__corpo">
+              <h3 class="servico__titulo">Eventos</h3>
+              <p data-anim="fade">Projetos florais para celebrações, encontros e ocasiões especiais.</p>
+              <a class="link-seta" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Conheci%20o%20Aquarius%20Arte%20Floral%20pelo%20site%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto%20floral%20para%20um%20evento." data-whatsapp="Olá! Conheci o Aquarius Arte Floral pelo site e gostaria de conversar sobre um projeto floral para um evento." target="_blank" rel="noopener">Falar sobre meu projeto<span class="sr-only"> – eventos (abre o WhatsApp)</span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg></a>
+            </div>
+            <div class="servico__foto midia" data-anim="imagem">
+              <picture><source type="image/avif" srcset="assets/img/buque-colorido-girassois-400.avif 400w, assets/img/buque-colorido-girassois-800.avif 800w, assets/img/buque-colorido-girassois-944.avif 944w" sizes="(min-width: 48rem) 36vw, 90vw"><source type="image/webp" srcset="assets/img/buque-colorido-girassois-400.webp 400w, assets/img/buque-colorido-girassois-800.webp 800w, assets/img/buque-colorido-girassois-944.webp 944w" sizes="(min-width: 48rem) 36vw, 90vw"><img src="assets/img/buque-colorido-girassois-944.jpg" srcset="assets/img/buque-colorido-girassois-400.jpg 400w, assets/img/buque-colorido-girassois-800.jpg 800w, assets/img/buque-colorido-girassois-944.jpg 944w" sizes="(min-width: 48rem) 36vw, 90vw" width="944" height="1116" alt="Buquê colorido com girassóis, crisântemos pink e lilás, margaridas brancas e eucalipto, em papel verde-sálvia e kraft com fita verde." loading="lazy" decoding="async"></picture>
+            </div>
+          </li>
+          <li class="servico" data-servico="3">
+            <span class="servico__num" aria-hidden="true">03</span>
+            <div class="servico__corpo">
+              <h3 class="servico__titulo">Presentes</h3>
+              <p data-anim="fade">Composições criadas especialmente para presentear, decorar ou transformar um ambiente.</p>
+              <a class="link-seta" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Conheci%20o%20Aquarius%20Arte%20Floral%20pelo%20site%20e%20gostaria%20de%20presentear%20algu%C3%A9m%20com%20um%20projeto%20floral." data-whatsapp="Olá! Conheci o Aquarius Arte Floral pelo site e gostaria de presentear alguém com um projeto floral." target="_blank" rel="noopener">Falar sobre meu projeto<span class="sr-only"> – presentes (abre o WhatsApp)</span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg></a>
+            </div>
+            <div class="servico__foto midia" data-anim="imagem">
+              <picture><source type="image/avif" srcset="assets/img/cesta-flores-vela-400.avif 400w, assets/img/cesta-flores-vela-800.avif 800w, assets/img/cesta-flores-vela-1063.avif 1063w" sizes="(min-width: 48rem) 36vw, 90vw"><source type="image/webp" srcset="assets/img/cesta-flores-vela-400.webp 400w, assets/img/cesta-flores-vela-800.webp 800w, assets/img/cesta-flores-vela-1063.webp 1063w" sizes="(min-width: 48rem) 36vw, 90vw"><img src="assets/img/cesta-flores-vela-1063.jpg" srcset="assets/img/cesta-flores-vela-400.jpg 400w, assets/img/cesta-flores-vela-800.jpg 800w, assets/img/cesta-flores-vela-1063.jpg 1063w" sizes="(min-width: 48rem) 36vw, 90vw" width="1063" height="1008" alt="Cesta de palha com crisântemos coloridos em laranja, amarelo, pink e branco, uma vela artesanal do Aquarius e um cartão, amarrada com fita verde e segurada na mão." loading="lazy" decoding="async"></picture>
+            </div>
+          </li>
+          <li class="servico" data-servico="4">
+            <span class="servico__num" aria-hidden="true">04</span>
+            <div class="servico__corpo">
+              <h3 class="servico__titulo">Assinatura</h3>
+              <p data-anim="fade">A arte floral como parte da sua rotina, da sua casa e dos seus dias. Assine sua experiência floral com a Aquarius e viva mais flores.</p>
+              <a class="link-seta" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Ateli%C3%AA%20Aquarius%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20assinatura." data-whatsapp="Olá! Vim pelo site do Ateliê Aquarius e gostaria de saber mais sobre a assinatura." target="_blank" rel="noopener">Assinar experiência floral<span class="sr-only"> – assinatura (abre o WhatsApp)</span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg></a>
+            </div>
+            <div class="servico__foto midia" data-anim="imagem">
+              <picture><source type="image/avif" srcset="assets/img/lisianthus-roxo-kraft-400.avif 400w, assets/img/lisianthus-roxo-kraft-800.avif 800w, assets/img/lisianthus-roxo-kraft-1034.avif 1034w" sizes="(min-width: 48rem) 36vw, 90vw"><source type="image/webp" srcset="assets/img/lisianthus-roxo-kraft-400.webp 400w, assets/img/lisianthus-roxo-kraft-800.webp 800w, assets/img/lisianthus-roxo-kraft-1034.webp 1034w" sizes="(min-width: 48rem) 36vw, 90vw"><img src="assets/img/lisianthus-roxo-kraft-1034.jpg" srcset="assets/img/lisianthus-roxo-kraft-400.jpg 400w, assets/img/lisianthus-roxo-kraft-800.jpg 800w, assets/img/lisianthus-roxo-kraft-1034.jpg 1034w" sizes="(min-width: 48rem) 36vw, 90vw" width="1034" height="1024" alt="Buquê de lisianthus roxos com mini rosas pink, limônio e mosquitinho lilás, em papel kraft com cartão do Aquarius." loading="lazy" decoding="async"></picture>
+            </div>
+          </li>
+        </ol>
+        <div class="servicos__palco" aria-hidden="true">
+          <div class="palco__img midia is-ativo" data-palco="1">
+            <picture><source type="image/avif" srcset="assets/img/noiva-hortensias-azuis-400.avif 400w, assets/img/noiva-hortensias-azuis-800.avif 800w, assets/img/noiva-hortensias-azuis-928.avif 928w" sizes="30vw"><source type="image/webp" srcset="assets/img/noiva-hortensias-azuis-400.webp 400w, assets/img/noiva-hortensias-azuis-800.webp 800w, assets/img/noiva-hortensias-azuis-928.webp 928w" sizes="30vw"><img src="assets/img/noiva-hortensias-azuis-928.jpg" srcset="assets/img/noiva-hortensias-azuis-400.jpg 400w, assets/img/noiva-hortensias-azuis-800.jpg 800w, assets/img/noiva-hortensias-azuis-928.jpg 928w" sizes="30vw" width="928" height="1143" alt="" loading="lazy" decoding="async"></picture>
+          </div>
+          <div class="palco__img midia" data-palco="2">
+            <picture><source type="image/avif" srcset="assets/img/buque-colorido-girassois-400.avif 400w, assets/img/buque-colorido-girassois-800.avif 800w, assets/img/buque-colorido-girassois-944.avif 944w" sizes="30vw"><source type="image/webp" srcset="assets/img/buque-colorido-girassois-400.webp 400w, assets/img/buque-colorido-girassois-800.webp 800w, assets/img/buque-colorido-girassois-944.webp 944w" sizes="30vw"><img src="assets/img/buque-colorido-girassois-944.jpg" srcset="assets/img/buque-colorido-girassois-400.jpg 400w, assets/img/buque-colorido-girassois-800.jpg 800w, assets/img/buque-colorido-girassois-944.jpg 944w" sizes="30vw" width="944" height="1116" alt="" loading="lazy" decoding="async"></picture>
+          </div>
+          <div class="palco__img midia" data-palco="3">
+            <picture><source type="image/avif" srcset="assets/img/cesta-flores-vela-400.avif 400w, assets/img/cesta-flores-vela-800.avif 800w, assets/img/cesta-flores-vela-1063.avif 1063w" sizes="30vw"><source type="image/webp" srcset="assets/img/cesta-flores-vela-400.webp 400w, assets/img/cesta-flores-vela-800.webp 800w, assets/img/cesta-flores-vela-1063.webp 1063w" sizes="30vw"><img src="assets/img/cesta-flores-vela-1063.jpg" srcset="assets/img/cesta-flores-vela-400.jpg 400w, assets/img/cesta-flores-vela-800.jpg 800w, assets/img/cesta-flores-vela-1063.jpg 1063w" sizes="30vw" width="1063" height="1008" alt="" loading="lazy" decoding="async"></picture>
+          </div>
+          <div class="palco__img midia" data-palco="4">
+            <picture><source type="image/avif" srcset="assets/img/lisianthus-roxo-kraft-400.avif 400w, assets/img/lisianthus-roxo-kraft-800.avif 800w, assets/img/lisianthus-roxo-kraft-1034.avif 1034w" sizes="30vw"><source type="image/webp" srcset="assets/img/lisianthus-roxo-kraft-400.webp 400w, assets/img/lisianthus-roxo-kraft-800.webp 800w, assets/img/lisianthus-roxo-kraft-1034.webp 1034w" sizes="30vw"><img src="assets/img/lisianthus-roxo-kraft-1034.jpg" srcset="assets/img/lisianthus-roxo-kraft-400.jpg 400w, assets/img/lisianthus-roxo-kraft-800.jpg 800w, assets/img/lisianthus-roxo-kraft-1034.jpg 1034w" sizes="30vw" width="1034" height="1024" alt="" loading="lazy" decoding="async"></picture>
+          </div>
+          <p class="palco__legenda" data-palco-legenda>01 / 04</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Processo -->
+    <section class="secao tema-verde" id="processo" aria-labelledby="processo-titulo">
+      <div class="container">
+        <div class="secao__cabeca">
+          <p class="rotulo" data-anim="fade">Processo</p>
+          <h2 id="processo-titulo" data-anim="texto">Da primeira conversa à última <em>pétala</em>.</h2>
+        </div>
+
+        <div class="processo__trilho">
+          <div class="processo__linha" aria-hidden="true"><span class="processo__progresso"></span></div>
+          <ol class="processo__lista">
+            <li class="etapa">
+              <span class="etapa__numero" aria-hidden="true">01</span>
+              <h3>Conversa</h3>
+              <p>Você conta sobre a ocasião, o espaço, suas referências e o que deseja criar.</p>
+            </li>
+            <li class="etapa">
+              <span class="etapa__numero" aria-hidden="true">02</span>
+              <h3>Curadoria</h3>
+              <p>Elaboro a ideia com as flores, cores, texturas e possibilidades.</p>
+            </li>
+            <li class="etapa">
+              <span class="etapa__numero" aria-hidden="true">03</span>
+              <h3>Criação</h3>
+              <p>Desenvolvo uma proposta personalizada.</p>
+            </li>
+            <li class="etapa">
+              <span class="etapa__numero" aria-hidden="true">04</span>
+              <h3>Execução</h3>
+              <p>Cuido de cada detalhe para te entregar o melhor projeto.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Portfólio -->
+    <section class="secao tema-floresta" id="portfolio" aria-labelledby="portfolio-titulo">
+      <div class="container">
+        <div class="secao__cabeca cabeca-linha cabeca-linha--acao">
+          <h2 id="portfolio-titulo" data-anim="fade">Portfólio</h2>
+          <a class="btn btn--primario" href="https://www.instagram.com/aquariusartefloral/" target="_blank" rel="noopener" data-anim="fade">
+            <span class="rola"><span>Ver todos</span><span aria-hidden="true">Ver todos</span></span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg><span class="sr-only"> os projetos no Instagram (abre em nova aba)</span>
+          </a>
+        </div>
+
+        <div class="carrossel" role="region" aria-roledescription="carrossel" aria-label="Projetos do ateliê" data-carrossel>
+          <div class="carrossel__trilho" aria-live="off" data-carrossel-trilho>
+            <div class="trio is-ativo" role="group" aria-roledescription="slide" aria-label="1 de 3" data-trio>
+              <figure class="trio__item trio__item--arco">
+                <div class="trio__foto"><picture><source type="image/avif" srcset="assets/img/tiara-daminhas-400.avif 400w, assets/img/tiara-daminhas-800.avif 800w, assets/img/tiara-daminhas-1024.avif 1024w" sizes="(min-width: 48rem) 24vw, 45vw"><source type="image/webp" srcset="assets/img/tiara-daminhas-400.webp 400w, assets/img/tiara-daminhas-800.webp 800w, assets/img/tiara-daminhas-1024.webp 1024w" sizes="(min-width: 48rem) 24vw, 45vw"><img src="assets/img/tiara-daminhas-1024.jpg" srcset="assets/img/tiara-daminhas-400.jpg 400w, assets/img/tiara-daminhas-800.jpg 800w, assets/img/tiara-daminhas-1024.jpg 1024w" sizes="(min-width: 48rem) 24vw, 45vw" width="1024" height="1028" alt="Tiara de flores com cravos azuis, mini rosas cor de pêssego, mosquitinho azul e folhas prateadas, com laço de fita azul-clara, segurada nas mãos." loading="lazy" decoding="async"></picture></div>
+                <figcaption>Tiara de flores para daminhas</figcaption>
+              </figure>
+              <figure class="trio__item trio__item--alto">
+                <div class="trio__foto"><picture><source type="image/avif" srcset="assets/img/flores-campestres-vela-400.avif 400w, assets/img/flores-campestres-vela-800.avif 800w, assets/img/flores-campestres-vela-1008.avif 1008w" sizes="(min-width: 48rem) 34vw, 90vw"><source type="image/webp" srcset="assets/img/flores-campestres-vela-400.webp 400w, assets/img/flores-campestres-vela-800.webp 800w, assets/img/flores-campestres-vela-1008.webp 1008w" sizes="(min-width: 48rem) 34vw, 90vw"><img src="assets/img/flores-campestres-vela-1008.jpg" srcset="assets/img/flores-campestres-vela-400.jpg 400w, assets/img/flores-campestres-vela-800.jpg 800w, assets/img/flores-campestres-vela-1008.jpg 1008w" sizes="(min-width: 48rem) 34vw, 90vw" width="1008" height="1047" alt="Cesta de palha com crisântemos coloridos em laranja, amarelo, pink e branco e uma vela artesanal do Aquarius, amarrada com fita verde." loading="lazy" decoding="async"></picture></div>
+                <figcaption>Flores campestres + vela artesanal</figcaption>
+              </figure>
+              <figure class="trio__item trio__item--arco">
+                <div class="trio__foto"><picture><source type="image/avif" srcset="assets/img/corsage-flores-naturais-400.avif 400w, assets/img/corsage-flores-naturais-800.avif 800w, assets/img/corsage-flores-naturais-1024.avif 1024w" sizes="(min-width: 48rem) 24vw, 45vw"><source type="image/webp" srcset="assets/img/corsage-flores-naturais-400.webp 400w, assets/img/corsage-flores-naturais-800.webp 800w, assets/img/corsage-flores-naturais-1024.webp 1024w" sizes="(min-width: 48rem) 24vw, 45vw"><img src="assets/img/corsage-flores-naturais-1024.jpg" srcset="assets/img/corsage-flores-naturais-400.jpg 400w, assets/img/corsage-flores-naturais-800.jpg 800w, assets/img/corsage-flores-naturais-1024.jpg 1024w" sizes="(min-width: 48rem) 24vw, 45vw" width="1024" height="1050" alt="Corsage de flores naturais brancas, com crisântemo, cravos, mosquitinho azul, eucalipto e aspargo, preso a uma fita de cetim branca." loading="lazy" decoding="async"></picture></div>
+                <figcaption>Corsages com flores naturais</figcaption>
+              </figure>
+            </div>
+            <div class="trio" role="group" aria-roledescription="slide" aria-label="2 de 3" data-trio>
+              <figure class="trio__item trio__item--arco">
+                <div class="trio__foto"><picture><source type="image/avif" srcset="assets/img/arranjo-celebracao-religiosa-400.avif 400w, assets/img/arranjo-celebracao-religiosa-800.avif 800w, assets/img/arranjo-celebracao-religiosa-936.avif 936w" sizes="(min-width: 48rem) 24vw, 45vw"><source type="image/webp" srcset="assets/img/arranjo-celebracao-religiosa-400.webp 400w, assets/img/arranjo-celebracao-religiosa-800.webp 800w, assets/img/arranjo-celebracao-religiosa-936.webp 936w" sizes="(min-width: 48rem) 24vw, 45vw"><img src="assets/img/arranjo-celebracao-religiosa-936.jpg" srcset="assets/img/arranjo-celebracao-religiosa-400.jpg 400w, assets/img/arranjo-celebracao-religiosa-800.jpg 800w, assets/img/arranjo-celebracao-religiosa-936.jpg 936w" sizes="(min-width: 48rem) 24vw, 45vw" width="936" height="1136" alt="Arranjo alto em tons de branco e verde, com lírios, crisântemos, bocas-de-leão, samambaias e folhas de costela-de-adão, sobre um pedestal de madeira." loading="lazy" decoding="async"></picture></div>
+                <figcaption>Arranjo para celebração religiosa</figcaption>
+              </figure>
+              <figure class="trio__item trio__item--alto">
+                <div class="trio__foto"><picture><source type="image/avif" srcset="assets/img/buque-personalizado-400.avif 400w, assets/img/buque-personalizado-800.avif 800w, assets/img/buque-personalizado-920.avif 920w" sizes="(min-width: 48rem) 34vw, 90vw"><source type="image/webp" srcset="assets/img/buque-personalizado-400.webp 400w, assets/img/buque-personalizado-800.webp 800w, assets/img/buque-personalizado-920.webp 920w" sizes="(min-width: 48rem) 34vw, 90vw"><img src="assets/img/buque-personalizado-920.jpg" srcset="assets/img/buque-personalizado-400.jpg 400w, assets/img/buque-personalizado-800.jpg 800w, assets/img/buque-personalizado-920.jpg 920w" sizes="(min-width: 48rem) 34vw, 90vw" width="920" height="1152" alt="Buquê com lírios rosa, tulipas vermelhas, hortênsias cor de pêssego, cardo e eucalipto, decorado com fotos instantâneas de um casal e embrulhado em papel verde." loading="lazy" decoding="async"></picture></div>
+                <figcaption>Buquê personalizado</figcaption>
+              </figure>
+              <figure class="trio__item trio__item--arco">
+                <div class="trio__foto"><picture><source type="image/avif" srcset="assets/img/arranjo-una-dia-dos-namorados-400.avif 400w, assets/img/arranjo-una-dia-dos-namorados-800.avif 800w, assets/img/arranjo-una-dia-dos-namorados-928.avif 928w" sizes="(min-width: 48rem) 24vw, 45vw"><source type="image/webp" srcset="assets/img/arranjo-una-dia-dos-namorados-400.webp 400w, assets/img/arranjo-una-dia-dos-namorados-800.webp 800w, assets/img/arranjo-una-dia-dos-namorados-928.webp 928w" sizes="(min-width: 48rem) 24vw, 45vw"><img src="assets/img/arranjo-una-dia-dos-namorados-928.jpg" srcset="assets/img/arranjo-una-dia-dos-namorados-400.jpg 400w, assets/img/arranjo-una-dia-dos-namorados-800.jpg 800w, assets/img/arranjo-una-dia-dos-namorados-928.jpg 928w" sizes="(min-width: 48rem) 24vw, 45vw" width="928" height="1127" alt="Uma rosa vermelha com folhas de eucalipto, envolta em papel kraft e amarrada com laço de cetim branco." loading="lazy" decoding="async"></picture></div>
+                <figcaption>Arranjo Una Coleção Dia dos Namorados</figcaption>
+              </figure>
+            </div>
+            <div class="trio" role="group" aria-roledescription="slide" aria-label="3 de 3" data-trio>
+              <figure class="trio__item trio__item--arco">
+                <div class="trio__foto"><picture><source type="image/avif" srcset="assets/img/arranjo-exclusivo-400.avif 400w, assets/img/arranjo-exclusivo-514.avif 514w" sizes="(min-width: 48rem) 24vw, 45vw"><source type="image/webp" srcset="assets/img/arranjo-exclusivo-400.webp 400w, assets/img/arranjo-exclusivo-514.webp 514w" sizes="(min-width: 48rem) 24vw, 45vw"><img src="assets/img/arranjo-exclusivo-514.jpg" srcset="assets/img/arranjo-exclusivo-400.jpg 400w, assets/img/arranjo-exclusivo-514.jpg 514w" sizes="(min-width: 48rem) 24vw, 45vw" width="514" height="453" alt="Arranjo com bocas-de-leão brancas, eucalipto e mosquitinho, amarrado com laço de fita lilás." loading="lazy" decoding="async"></picture></div>
+                <figcaption>Arranjo exclusivo</figcaption>
+              </figure>
+              <figure class="trio__item trio__item--alto">
+                <div class="trio__foto"><picture><source type="image/avif" srcset="assets/img/buque-girassois-400.avif 400w, assets/img/buque-girassois-800.avif 800w, assets/img/buque-girassois-1024.avif 1024w" sizes="(min-width: 48rem) 34vw, 90vw"><source type="image/webp" srcset="assets/img/buque-girassois-400.webp 400w, assets/img/buque-girassois-800.webp 800w, assets/img/buque-girassois-1024.webp 1024w" sizes="(min-width: 48rem) 34vw, 90vw"><img src="assets/img/buque-girassois-1024.jpg" srcset="assets/img/buque-girassois-400.jpg 400w, assets/img/buque-girassois-800.jpg 800w, assets/img/buque-girassois-1024.jpg 1024w" sizes="(min-width: 48rem) 34vw, 90vw" width="1024" height="1052" alt="Buquê de três girassóis com mosquitinho e eucalipto, em papel verde-sálvia e kraft, amarrado com fita de cetim verde." loading="lazy" decoding="async"></picture></div>
+                <figcaption>Buquê de girassóis</figcaption>
+              </figure>
+              <figure class="trio__item trio__item--arco">
+                <div class="trio__foto"><picture><source type="image/avif" srcset="assets/img/buque-tons-suaves-400.avif 400w, assets/img/buque-tons-suaves-800.avif 800w, assets/img/buque-tons-suaves-1024.avif 1024w" sizes="(min-width: 48rem) 24vw, 45vw"><source type="image/webp" srcset="assets/img/buque-tons-suaves-400.webp 400w, assets/img/buque-tons-suaves-800.webp 800w, assets/img/buque-tons-suaves-1024.webp 1024w" sizes="(min-width: 48rem) 24vw, 45vw"><img src="assets/img/buque-tons-suaves-1024.jpg" srcset="assets/img/buque-tons-suaves-400.jpg 400w, assets/img/buque-tons-suaves-800.jpg 800w, assets/img/buque-tons-suaves-1024.jpg 1024w" sizes="(min-width: 48rem) 24vw, 45vw" width="1024" height="1056" alt="Buquê em tons de rosa com mini rosas, alstroemérias e mosquitinho, envolto em papel kraft com laço azul-claro." loading="lazy" decoding="async"></picture></div>
+                <figcaption>Buquê em tons suaves</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="carrossel__controles" data-carrossel-controles hidden>
+            <p class="carrossel__contador" aria-hidden="true"><span data-carrossel-atual>01</span> / <span data-carrossel-total>03</span></p>
+            <div class="carrossel__indicadores">
+              <button class="indicador" type="button" data-ir="0" aria-current="true"><span class="sr-only">Mostrar trio 1</span></button>
+              <button class="indicador" type="button" data-ir="1"><span class="sr-only">Mostrar trio 2</span></button>
+              <button class="indicador" type="button" data-ir="2"><span class="sr-only">Mostrar trio 3</span></button>
+            </div>
+            <button class="carrossel__pausa" type="button" data-carrossel-pausa>Pausar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Depoimentos -->
+
+    <!-- 8. Sobre a artista -->
+    <section class="secao tema-verde sobre" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container sobre__grade">
+        <div class="sobre__texto">
+          <p class="rotulo" data-anim="fade">Sua artista floral: Mariana Santos</p>
+          <h2 id="sobre-titulo" data-anim="texto">Bem-vindo ao meu <em>jardim</em>.</h2>
+          <p data-anim="fade">Esse é o Aquarius: um ateliê de arte floral feito por uma só artista, com tempo, intenção e alma.</p>
+          <p data-anim="fade">Aqui, cada arranjo é único. Não seguimos fórmulas prontas. Criamos flores como quem conta histórias: com beleza sensível e significado.</p>
+          <p data-anim="fade">Foram 4 anos de estudo em arte floral até que esse sonho florescesse com verdade.<br>Se essa estética e esse sentir também tocam você, fico feliz por termos nos encontrado.</p>
+          <p class="sobre__assinatura" data-anim="fade">Mariana Santos</p>
+        </div>
+        <div class="midia" data-anim="imagem">
+          <div class="parallax" data-parallax>
+            <picture><source type="image/avif" srcset="assets/img/retrato-mariana-400.avif 400w, assets/img/retrato-mariana-800.avif 800w, assets/img/retrato-mariana-1026.avif 1026w" sizes="(min-width: 64rem) 40vw, 90vw"><source type="image/webp" srcset="assets/img/retrato-mariana-400.webp 400w, assets/img/retrato-mariana-800.webp 800w, assets/img/retrato-mariana-1026.webp 1026w" sizes="(min-width: 64rem) 40vw, 90vw"><img src="assets/img/retrato-mariana-1026.jpg" srcset="assets/img/retrato-mariana-400.jpg 400w, assets/img/retrato-mariana-800.jpg 800w, assets/img/retrato-mariana-1026.jpg 1026w" sizes="(min-width: 64rem) 40vw, 90vw" width="1026" height="1024" alt="Mariana Santos sorrindo, de braços cruzados, em frente a prateleiras com vasos de flores." loading="lazy" decoding="async"></picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Perguntas frequentes -->
+    <section class="secao tema-sage" id="perguntas" aria-labelledby="perguntas-titulo">
+      <div class="container faq__grade">
+        <div class="secao__cabeca cabeca-linha cabeca-linha--acao">
+          <h2 id="perguntas-titulo" data-anim="fade">Perguntas frequentes</h2>
+          <a class="btn btn--primario faq__acao--topo" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Ateli%C3%AA%20Aquarius%20e%20gostaria%20de%20um%20or%C3%A7amento." data-whatsapp="Olá! Vim pelo site do Ateliê Aquarius e tenho uma dúvida." target="_blank" rel="noopener" data-anim="fade">
+            <span class="rola"><span>Fazer uma pergunta</span><span aria-hidden="true">Fazer uma pergunta</span></span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg><span class="sr-only"> (abre o WhatsApp)</span>
+          </a>
+        </div>
+
+        <div class="faq__lista" data-acordeao>
+          <div class="faq__item">
+            <h3><button class="faq__botao" type="button" id="faq-botao-1" aria-expanded="false" aria-controls="faq-painel-1">
+              <span class="faq__num" aria-hidden="true">01</span>
+              <span class="faq__pergunta">Você trabalha com projetos personalizados?</span>
+              <span class="faq__icone" aria-hidden="true"><svg class="icone"><use href="assets/icones.svg#mais"/></svg></span>
+            </button></h3>
+            <div class="faq__painel" id="faq-painel-1" role="region" aria-labelledby="faq-botao-1" hidden>
+              <p class="faq__resposta">Sim. Seu projeto com Aquarius é criado a partir da sua ocasião, do espaço e das suas referências.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <h3><button class="faq__botao" type="button" id="faq-botao-2" aria-expanded="false" aria-controls="faq-painel-2">
+              <span class="faq__num" aria-hidden="true">02</span>
+              <span class="faq__pergunta">Com quanto tempo de antecedência devo entrar em contato?</span>
+              <span class="faq__icone" aria-hidden="true"><svg class="icone"><use href="assets/icones.svg#mais"/></svg></span>
+            </button></h3>
+            <div class="faq__painel" id="faq-painel-2" role="region" aria-labelledby="faq-botao-2" hidden>
+              <p class="faq__resposta">Quanto antes, melhor. Para casamentos e eventos, o ideal é chamar assim que a data estiver definida. Para arranjos e presentes, consulte a disponibilidade pelo WhatsApp.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <h3><button class="faq__botao" type="button" id="faq-botao-3" aria-expanded="false" aria-controls="faq-painel-3">
+              <span class="faq__num" aria-hidden="true">03</span>
+              <span class="faq__pergunta">É possível montar um presente com mais do que as flores?</span>
+              <span class="faq__icone" aria-hidden="true"><svg class="icone"><use href="assets/icones.svg#mais"/></svg></span>
+            </button></h3>
+            <div class="faq__painel" id="faq-painel-3" role="region" aria-labelledby="faq-botao-3" hidden>
+              <p class="faq__resposta">Sim. O Ateliê também trabalha com itens adicionais como velas artesanais e caixas de doces.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <h3><button class="faq__botao" type="button" id="faq-botao-4" aria-expanded="false" aria-controls="faq-painel-4">
+              <span class="faq__num" aria-hidden="true">04</span>
+              <span class="faq__pergunta">Posso escolher as flores?</span>
+              <span class="faq__icone" aria-hidden="true"><svg class="icone"><use href="assets/icones.svg#mais"/></svg></span>
+            </button></h3>
+            <div class="faq__painel" id="faq-painel-4" role="region" aria-labelledby="faq-botao-4" hidden>
+              <p class="faq__resposta">Sim. Conversamos sobre as suas preferências e ajustamos a escolha à disponibilidade da estação, para que tudo chegue no seu melhor momento.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <h3><button class="faq__botao" type="button" id="faq-botao-5" aria-expanded="false" aria-controls="faq-painel-5">
+              <span class="faq__num" aria-hidden="true">05</span>
+              <span class="faq__pergunta">Você atende eventos de diferentes tamanhos?</span>
+              <span class="faq__icone" aria-hidden="true"><svg class="icone"><use href="assets/icones.svg#mais"/></svg></span>
+            </button></h3>
+            <div class="faq__painel" id="faq-painel-5" role="region" aria-labelledby="faq-botao-5" hidden>
+              <p class="faq__resposta">Sim. De um arranjo para um jantar íntimo a projetos para celebrações maiores, cada proposta é pensada na escala certa.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <h3><button class="faq__botao" type="button" id="faq-botao-6" aria-expanded="false" aria-controls="faq-painel-6">
+              <span class="faq__num" aria-hidden="true">06</span>
+              <span class="faq__pergunta">Você trabalha com coleções temáticas?</span>
+              <span class="faq__icone" aria-hidden="true"><svg class="icone"><use href="assets/icones.svg#mais"/></svg></span>
+            </button></h3>
+            <div class="faq__painel" id="faq-painel-6" role="region" aria-labelledby="faq-botao-6" hidden>
+              <p class="faq__resposta">Sim. Temos uma tabela especial para decorações de casas de axé e celebrações religiosas, além de coleções para datas comemorativas como Dia dos Namorados.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq__acao faq__acao--base">
+          <a class="btn btn--primario" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Ateli%C3%AA%20Aquarius%20e%20gostaria%20de%20um%20or%C3%A7amento." data-whatsapp="Olá! Vim pelo site do Ateliê Aquarius e tenho uma dúvida." target="_blank" rel="noopener" data-anim="fade">
+            <span class="rola"><span>Fazer uma pergunta</span><span aria-hidden="true">Fazer uma pergunta</span></span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg><span class="sr-only"> (abre o WhatsApp)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. CTA final -->
+    <section class="secao cta tema-floresta" id="contato" aria-labelledby="cta-titulo">
+      <div class="container cta__grade">
+        <div class="cta__texto">
+          <h2 id="cta-titulo" data-anim="texto">Vamos criar algo que <em>floresce</em>?</h2>
+          <p data-anim="fade">Conte o que você está imaginando e descubra as possibilidades para o seu projeto floral.</p>
+          <a class="btn btn--primario" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Ateli%C3%AA%20Aquarius%20e%20gostaria%20de%20um%20or%C3%A7amento." data-whatsapp target="_blank" rel="noopener" data-anim="fade">
+            <span class="rola"><span>Falar no WhatsApp</span><span aria-hidden="true">Falar no WhatsApp</span></span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg><span class="sr-only"> (abre o WhatsApp)</span>
+          </a>
+        </div>
+        <div class="cta__video">
+          <video muted loop playsinline preload="metadata" width="600" height="800" poster="assets/video/cta-flores-poster-600.webp" aria-hidden="true" data-video-cta>
+            <source src="assets/video/cta-flores-600.mp4" type="video/mp4">
+          </video>
+          <button class="cta__video-controle" type="button" aria-label="Pausar vídeo" data-video-cta-controle hidden>
+            <span class="cta__video-icone" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. Instagram -->
+    <section class="secao tema-sage" id="instagram" aria-labelledby="instagram-titulo">
+      <div class="container">
+        <div class="secao__cabeca cabeca-linha insta__cabeca">
+          <p class="rotulo" data-anim="fade">Floresça comigo</p>
+          <h2 id="instagram-titulo" data-anim="fade"><a href="https://www.instagram.com/aquariusartefloral/" target="_blank" rel="noopener">@aquariusartefloral</a></h2>
+          <a class="link-seta" href="https://www.instagram.com/aquariusartefloral/" target="_blank" rel="noopener">Seguir no Instagram<span class="sr-only"> (abre o Instagram)</span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg></a>
+        </div>
+        <a class="insta__link" href="https://www.instagram.com/aquariusartefloral/" target="_blank" rel="noopener" aria-label="Ver mais trabalhos no Instagram @aquariusartefloral (abre o Instagram)">
+          <ul class="insta__grade" role="list">
+            <li data-anim="imagem"><picture><source type="image/avif" srcset="assets/img/buque-rosas-vermelhas-240.avif 240w, assets/img/buque-rosas-vermelhas-320.avif 320w, assets/img/buque-rosas-vermelhas-397.avif 397w, assets/img/buque-rosas-vermelhas-800.avif 800w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><source type="image/webp" srcset="assets/img/buque-rosas-vermelhas-240.webp 240w, assets/img/buque-rosas-vermelhas-320.webp 320w, assets/img/buque-rosas-vermelhas-397.webp 397w, assets/img/buque-rosas-vermelhas-800.webp 800w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><img src="assets/img/buque-rosas-vermelhas-800.jpg" srcset="assets/img/buque-rosas-vermelhas-240.jpg 240w, assets/img/buque-rosas-vermelhas-320.jpg 320w, assets/img/buque-rosas-vermelhas-397.jpg 397w, assets/img/buque-rosas-vermelhas-800.jpg 800w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw" width="800" height="1066" alt="" loading="lazy" decoding="async"></picture></li>
+            <li data-anim="imagem"><picture><source type="image/avif" srcset="assets/img/buque-alstroemerias-rosas-240.avif 240w, assets/img/buque-alstroemerias-rosas-320.avif 320w, assets/img/buque-alstroemerias-rosas-391.avif 391w, assets/img/buque-alstroemerias-rosas-800.avif 800w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><source type="image/webp" srcset="assets/img/buque-alstroemerias-rosas-240.webp 240w, assets/img/buque-alstroemerias-rosas-320.webp 320w, assets/img/buque-alstroemerias-rosas-391.webp 391w, assets/img/buque-alstroemerias-rosas-800.webp 800w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><img src="assets/img/buque-alstroemerias-rosas-800.jpg" srcset="assets/img/buque-alstroemerias-rosas-240.jpg 240w, assets/img/buque-alstroemerias-rosas-320.jpg 320w, assets/img/buque-alstroemerias-rosas-391.jpg 391w, assets/img/buque-alstroemerias-rosas-800.jpg 800w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw" width="800" height="1066" alt="" loading="lazy" decoding="async"></picture></li>
+            <li data-anim="imagem"><picture><source type="image/avif" srcset="assets/img/lisianthus-roxo-kraft-400.avif 400w, assets/img/lisianthus-roxo-kraft-800.avif 800w, assets/img/lisianthus-roxo-kraft-1034.avif 1034w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><source type="image/webp" srcset="assets/img/lisianthus-roxo-kraft-400.webp 400w, assets/img/lisianthus-roxo-kraft-800.webp 800w, assets/img/lisianthus-roxo-kraft-1034.webp 1034w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><img src="assets/img/lisianthus-roxo-kraft-1034.jpg" srcset="assets/img/lisianthus-roxo-kraft-400.jpg 400w, assets/img/lisianthus-roxo-kraft-800.jpg 800w, assets/img/lisianthus-roxo-kraft-1034.jpg 1034w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw" width="1034" height="1024" alt="" loading="lazy" decoding="async"></picture></li>
+            <li data-anim="imagem"><picture><source type="image/avif" srcset="assets/img/cesta-margaridas-vela-240.avif 240w, assets/img/cesta-margaridas-vela-320.avif 320w, assets/img/cesta-margaridas-vela-387.avif 387w, assets/img/cesta-margaridas-vela-800.avif 800w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><source type="image/webp" srcset="assets/img/cesta-margaridas-vela-240.webp 240w, assets/img/cesta-margaridas-vela-320.webp 320w, assets/img/cesta-margaridas-vela-387.webp 387w, assets/img/cesta-margaridas-vela-800.webp 800w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><img src="assets/img/cesta-margaridas-vela-800.jpg" srcset="assets/img/cesta-margaridas-vela-240.jpg 240w, assets/img/cesta-margaridas-vela-320.jpg 320w, assets/img/cesta-margaridas-vela-387.jpg 387w, assets/img/cesta-margaridas-vela-800.jpg 800w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw" width="800" height="1067" alt="" loading="lazy" decoding="async"></picture></li>
+            <li data-anim="imagem"><picture><source type="image/avif" srcset="assets/img/noiva-hortensias-azuis-400.avif 400w, assets/img/noiva-hortensias-azuis-800.avif 800w, assets/img/noiva-hortensias-azuis-928.avif 928w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><source type="image/webp" srcset="assets/img/noiva-hortensias-azuis-400.webp 400w, assets/img/noiva-hortensias-azuis-800.webp 800w, assets/img/noiva-hortensias-azuis-928.webp 928w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><img src="assets/img/noiva-hortensias-azuis-928.jpg" srcset="assets/img/noiva-hortensias-azuis-400.jpg 400w, assets/img/noiva-hortensias-azuis-800.jpg 800w, assets/img/noiva-hortensias-azuis-928.jpg 928w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw" width="928" height="1143" alt="" loading="lazy" decoding="async"></picture></li>
+            <li data-anim="imagem"><picture><source type="image/avif" srcset="assets/img/rosas-champanhe-kraft-400.avif 400w, assets/img/rosas-champanhe-kraft-800.avif 800w, assets/img/rosas-champanhe-kraft-878.avif 878w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><source type="image/webp" srcset="assets/img/rosas-champanhe-kraft-400.webp 400w, assets/img/rosas-champanhe-kraft-800.webp 800w, assets/img/rosas-champanhe-kraft-878.webp 878w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw"><img src="assets/img/rosas-champanhe-kraft-878.jpg" srcset="assets/img/rosas-champanhe-kraft-400.jpg 400w, assets/img/rosas-champanhe-kraft-800.jpg 800w, assets/img/rosas-champanhe-kraft-878.jpg 878w" sizes="(min-width: 64rem) 15vw, (min-width: 48rem) 30vw, 45vw" width="878" height="1216" alt="" loading="lazy" decoding="async"></picture></li>
+          </ul>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- 12. Rodapé -->
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape__grade">
+        <div class="rodape__marca">
+          <svg viewBox="0 0 440 202" role="img" aria-label="Ateliê Aquarius Arte Floral" focusable="false"><use href="assets/logo-aquarius.svg?v=20260923c#logo" width="440" height="202"/></svg>
+          <p>Arte floral autoral de Mariana Santos, em Campo Grande-MS.</p>
+        </div>
+
+        <div class="rodape__coluna">
+          <h2 class="rotulo">Contato</h2>
+          <ul>
+            <li><a class="rodape__rede" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Ateli%C3%AA%20Aquarius%20e%20gostaria%20de%20um%20or%C3%A7amento." data-whatsapp target="_blank" rel="noopener"><svg class="icone icone--cheio" aria-hidden="true" focusable="false"><use href="assets/icones.svg#whatsapp"/></svg><span class="sr-only">WhatsApp </span>(67) 99677-6309<span class="sr-only"> (abre o WhatsApp)</span></a></li>
+            <li><a href="tel:+5567996776309">Ligar para o ateliê</a></li>
+          </ul>
+        </div>
+
+        <div class="rodape__coluna">
+          <h2 class="rotulo">Endereço</h2>
+          <address>Campo Grande · MS</address>
+        </div>
+
+        <div class="rodape__coluna">
+          <h2 class="rotulo">Redes</h2>
+          <ul>
+            <li><a class="rodape__rede" href="https://www.instagram.com/aquariusartefloral/" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#instagram"/></svg><span class="sr-only">Instagram </span>@aquariusartefloral<span class="sr-only"> (abre o Instagram)</span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rodape__base">
+        <p>© <span data-ano>2026</span> Ateliê Aquarius Arte Floral. Todos os direitos reservados.</p>
+        <p class="rodape__credito">Site feito por <a href="https://www.instagram.com/maferrsantos/" target="_blank" rel="noopener">Maria Fernanda<span class="sr-only"> (abre o Instagram)</span></a></p>
+        <button class="topo-botao" type="button" data-topo><span class="rola"><span>Voltar ao topo</span><span aria-hidden="true">Voltar ao topo</span></span> <svg class="icone" aria-hidden="true" focusable="false"><use href="assets/icones.svg#seta"/></svg></button>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whats-flutuante" href="https://wa.me/5567996776309?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Ateli%C3%AA%20Aquarius%20e%20gostaria%20de%20um%20or%C3%A7amento." data-whatsapp target="_blank" rel="noopener" aria-label="Pedir orçamento pelo WhatsApp (abre o WhatsApp)">
+    <svg class="icone icone--cheio" aria-hidden="true" focusable="false"><use href="assets/icones.svg#whatsapp"/></svg><span aria-hidden="true">Orçamento</span>
+  </a>
+</body>
+</html>
