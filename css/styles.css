@@ -2485,13 +2485,14 @@ main:focus,
   align-items: center;
   gap: var(--esp-2);
   min-height: 3.25rem;
-  padding-inline: var(--esp-4) var(--esp-6);
-  border-radius: var(--raio-pilula);
+  padding-inline: var(--esp-4) var(--esp-8);
+  border-radius: var(--raio-xs);
   background: var(--terracota);
   color: var(--papel);
-  font-size: var(--texto-botao);
+  font-size: var(--texto-sm);
   font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   box-shadow: 0 0.75rem 2rem -0.75rem color-mix(in srgb, var(--verde-900) 55%, transparent);
   opacity: 0;
   visibility: hidden;
@@ -2505,6 +2506,16 @@ main:focus,
 .whats-flutuante .icone {
   width: 1.375rem;
   height: 1.375rem;
+}
+
+/* mesmo formato dos outros botões: seta ↗ pequena no canto */
+.whats-flutuante .whats-flutuante__seta {
+  position: absolute;
+  top: var(--esp-2);
+  right: var(--esp-2);
+  width: 0.875rem;
+  height: 0.875rem;
+  transform: rotate(-45deg);
 }
 
 .whats-flutuante.is-visivel {
