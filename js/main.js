@@ -343,6 +343,26 @@
       if (!raiz.contains(e.relatedTarget)) { comFoco = false; agendar(); }
     });
     document.addEventListener("visibilitychange", agendar);
+
+    // arrastar com o dedo: para a esquerda avança, para a direita volta.
+    // Só conta gesto mais horizontal que vertical, para não brigar com a rolagem.
+    var toqueX = null;
+    var toqueY = 0;
+    trilho.addEventListener("pointerdown", function (e) {
+      if (e.pointerType === "mouse") return;
+      toqueX = e.clientX;
+      toqueY = e.clientY;
+    });
+    trilho.addEventListener("pointerup", function (e) {
+      if (toqueX === null) return;
+      var dx = e.clientX - toqueX;
+      var dy = e.clientY - toqueY;
+      toqueX = null;
+      if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy)) return;
+      ir(dx < 0 ? i + 1 : i - 1);
+      agendar();
+    });
+    trilho.addEventListener("pointercancel", function () { toqueX = null; });
     // "change" nem sempre dispara ao girar a tela; resize reforça
     function aoMudarLargura() {
       var antes = umaPorVez;

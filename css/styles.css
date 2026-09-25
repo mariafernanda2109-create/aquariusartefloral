@@ -1611,6 +1611,9 @@ main:focus,
 
 .carrossel__trilho {
   display: grid;
+  /* o navegador cuida da rolagem vertical; o gesto lateral fica
+     com o carrossel (arrastar para trocar de foto) */
+  touch-action: pan-y;
 }
 
 /* sem JS os trios aparecem um embaixo do outro */
