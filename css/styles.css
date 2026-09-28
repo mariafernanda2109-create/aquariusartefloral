@@ -2801,6 +2801,27 @@ main:focus,
   margin-top: var(--esp-16);
 }
 
+/* ---------- TESTE DE CORES (paleta do manual da marca) ---------
+   Ativo pela classe .cores-teste no <html>. Para voltar às cores
+   anteriores, basta tirar a classe: os tokens originais do :root
+   continuam intactos lá em cima.
+   Manual: verde #3D5650 (já era o verde-700), creme #EBF4D3 e
+   sálvia #8C9779. Terracota continua como cor de ação: o manual
+   não traz uma cor de destaque para botões.                      */
+:root.cores-teste {
+  --verde-500: #8C9779;               /* sálvia do manual */
+  --verde-200: #EBF4D3;               /* creme do manual */
+  --papel: #EBF4D3;
+  --papel-2: color-mix(in srgb, #EBF4D3 85%, #8C9779);
+  --borda: color-mix(in srgb, #8C9779 55%, #EBF4D3);
+}
+
+/* com fundo e seções no mesmo creme, a linha fina sálvia separa
+   as seções claras que ficam lado a lado                         */
+.cores-teste .tema-sage + .tema-sage {
+  border-top: 1px solid var(--verde-500);
+}
+
 /* ---------- TESTE DE FONTES ------------------------------------
    Ativo pela classe .fontes-teste no <html>. Para voltar a Jost +
    Playfair Display, basta tirar a classe: os tokens originais do
