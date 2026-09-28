@@ -1219,10 +1219,12 @@ main:focus,
   border-top: 1px solid var(--s-linha);
 }
 
+/* celular: vertical (4:5), porque as fotos são verticais e o 4:3
+   cortava as flores em cima e embaixo */
 .manifesto__foto {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 4 / 5;
   background: var(--papel-2);
 }
 
@@ -1359,10 +1361,11 @@ main:focus,
   margin-top: calc(var(--esp-2) * -1);
 }
 
+/* celular: 4:5 mostra o arranjo inteiro das fotos verticais */
 .servico__foto {
   grid-column: 1 / -1;
   margin-top: var(--esp-6);
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 4 / 5;
 }
 
 .servicos__palco {
