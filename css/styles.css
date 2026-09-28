@@ -738,6 +738,21 @@ main:focus,
   height: 100%;
 }
 
+/* logo em dois tons (como no manual) quando o fundo é claro; sobre
+   fundo escuro fica monocromático em papel, versão prevista no manual */
+.cabecalho.is-rolado .cabecalho__logo,
+.preloader__logo,
+.pagina-simples.tema-sage .pagina-simples__topo {
+  --logo-tom-1: var(--verde-700);
+  --logo-tom-2: var(--verde-500);
+}
+
+/* menu aberto: o cabeçalho fica sobre o verde-900, volta ao papel */
+.menu-aberto .cabecalho.is-rolado .cabecalho__logo {
+  --logo-tom-1: currentColor;
+  --logo-tom-2: currentColor;
+}
+
 .cabecalho__logo {
   display: inline-flex;
   align-items: center;
@@ -746,9 +761,9 @@ main:focus,
 }
 
 .cabecalho__logo svg {
-  width: 7rem;
+  width: 8.5rem;
   height: auto;
-  aspect-ratio: 430 / 125;
+  aspect-ratio: 426 / 139;
 }
 
 .nav {
@@ -899,7 +914,7 @@ main:focus,
   }
 
   .cabecalho__logo svg {
-    width: 8.5rem;
+    width: 10rem;
   }
 }
 
@@ -1097,7 +1112,7 @@ main:focus,
 .hero__logo {
   width: min(100%, 40rem);
   height: auto;
-  aspect-ratio: 436 / 202;
+  aspect-ratio: 426 / 161;
   color: var(--papel);
 }
 
@@ -2377,7 +2392,7 @@ main:focus,
 .rodape__marca svg {
   width: min(100%, 20rem);
   height: auto;
-  aspect-ratio: 440 / 202;
+  aspect-ratio: 426 / 161;
   color: var(--papel);
 }
 
@@ -2565,7 +2580,7 @@ main:focus,
 .preloader__logo {
   width: min(20rem, 60vw);
   height: auto;
-  aspect-ratio: 440 / 202;
+  aspect-ratio: 426 / 161;
   color: var(--verde-700);
   clip-path: inset(0 100% 0 0);
 }
@@ -2702,7 +2717,7 @@ main:focus,
 
 .pagina-simples__topo {
   display: block;
-  width: 9rem;
+  width: 12rem;
   margin-bottom: clamp(var(--esp-12), 8vw, var(--esp-24));
   color: var(--s-titulo);
 }
