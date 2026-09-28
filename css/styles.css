@@ -2809,11 +2809,49 @@ main:focus,
    sálvia #8C9779. Terracota continua como cor de ação: o manual
    não traz uma cor de destaque para botões.                      */
 :root.cores-teste {
+  /* só as três cores do manual */
+  --verde-900: #3D5650;
+  --verde-700: #3D5650;               /* verde do manual */
   --verde-500: #8C9779;               /* sálvia do manual */
   --verde-200: #EBF4D3;               /* creme do manual */
   --papel: #EBF4D3;
-  --papel-2: color-mix(in srgb, #EBF4D3 85%, #8C9779);
-  --borda: color-mix(in srgb, #8C9779 55%, #EBF4D3);
+  --papel-2: #8C9779;
+  --borda: #8C9779;
+  --texto-2: #3D5650;
+  --terracota: #3D5650;
+  --terracota-hover: #3D5650;
+  --coral: #EBF4D3;
+  --blush: #EBF4D3;
+}
+
+/* Contraste: verde sobre creme 6.8:1. A sálvia não passa com texto
+   (2.7:1 sobre creme), então fica só em linhas, fundos de foto e
+   nas folhas da logo. Sem cor de destaque, o hover dos botões
+   inverte: fundo some, fica o contorno fino na cor do texto.      */
+.cores-teste .btn.btn--primario:is(:hover, :focus-visible) {
+  background: transparent;
+  color: var(--verde-700);
+  box-shadow: inset 0 0 0 1px currentColor;
+}
+
+/* fundo escuro (seções verdes, menu, cabeçalho sobre o vídeo):
+   botão creme com texto verde; no hover, contorno creme           */
+.cores-teste :is(.tema-verde, .tema-floresta, .menu-mobile) .btn.btn--primario,
+.cores-teste .cabecalho:not(.is-rolado) .btn.cabecalho__cta {
+  background: var(--papel);
+  color: var(--verde-700);
+}
+
+.cores-teste :is(.tema-verde, .tema-floresta, .menu-mobile) .btn.btn--primario:is(:hover, :focus-visible),
+.cores-teste .cabecalho:not(.is-rolado) .btn.cabecalho__cta:is(:hover, :focus-visible) {
+  background: transparent;
+  color: var(--papel);
+  box-shadow: inset 0 0 0 1px currentColor;
+}
+
+/* linha do rodapé: verde sobre verde sumiria */
+.cores-teste .rodape__base {
+  border-top-color: var(--verde-500);
 }
 
 /* com fundo e seções no mesmo creme, a linha fina sálvia separa
