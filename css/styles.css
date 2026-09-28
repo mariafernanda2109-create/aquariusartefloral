@@ -2801,8 +2801,8 @@ main:focus,
   margin-top: var(--esp-16);
 }
 
-/* ---------- TESTE DE CORES (paleta do manual da marca) ---------
-   Ativo pela classe .cores-teste no <html>. Para voltar às cores
+/* ---------- CORES DA MARCA (paleta do manual) ------------------
+   Aprovada em 28/09/2026. Ativa pela classe .cores-teste no <html>. Para voltar às cores
    anteriores, basta tirar a classe: os tokens originais do :root
    continuam intactos lá em cima.
    Manual: verde #3D5650 (já era o verde-700), creme #EBF4D3 e
